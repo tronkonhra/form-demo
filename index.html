@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Information Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <form id="userForm">
+        <h2>Enter Your Details</h2>
+        <label for="name">What is your name?</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="country">Where are you from?</label>
+        <input type="text" id="country" name="country" required />
+
+        <label for="hobby">What is your hobby?</label>
+        <input type="text" id="hobby" name="hobby" required />
+
+        <button type="submit">Submit</button>
+      </form>
+      <div id="result" class="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
